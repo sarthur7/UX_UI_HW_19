@@ -52,6 +52,10 @@ button {
   cursor: pointer;
 }
 
+.button:hover {
+  background-color: #131F32;
+}
+
 .mySkills {
   text-align: center;
   background-color: #F5E8E4;
@@ -195,11 +199,11 @@ h4 {
 
 @media screen and (max-width: 600px) {
   .flexContainer {
-    width:100%;
+    width:auto;
     margin: 0px;
   }
   .workGrid {
-    grid-template-rows: 400px 400px 400px 400px 400px 400px;
+    grid-template-rows: 600px 600px 600px 600px 600px 600px;
     grid-template-columns: 100%;
     grid-template-areas: 
       "gotrproj"
