@@ -21,39 +21,56 @@
 
 
 .heroImg{
-  height: 650px;
+  height: 700px;
   padding: 80px;
-  background-color: #F5E8E4
+  background-color: #F5E8E4;
 }
-.content{
+
+.content {
   width: 500px;
   margin: 0 auto;
 }
 
 h1 {
   color: #131F32;
-  font-size: 30px;
+  font-size: 40px;
+  text-align: center;
 }
 p{
   font-size: 23px;
   color: #2D656D;
+  text-align: center;
 }
 img{
   width: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
-button {
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.button {
+  margin: 0;
+  left: 100%;
+  margin-right: -50%;
+  transform: translate(75%, 50%);
   border: none;
   background-color: #2D656D;
-  color: #F5E8E4;
+  color: white;
   padding: 15px 32px;
   text-align: center;
   font-size: 16px;
-  border-radius: 10px;
+  border-radius: 8px;
   cursor: pointer;
 }
 
 .button:hover {
-  background-color: #131F32 !important;
+  background-color: #131F32;
 }
 
 .mySkills {
@@ -215,10 +232,10 @@ h4 {
 
 
 .footer {
-  background-color:#F5E8E4;
+  background-color:#C18076;
   text-align: center;
   padding: 20px;
-  font-size: 23px;
+  font-size: 30px;
   cursor: pointer;
   color: #131F32
 }
