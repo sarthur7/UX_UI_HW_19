@@ -1,6 +1,6 @@
 .navigation {
   height: 80px;
-  background-color: #C18076;
+  background-color: #F5E8E4;
 }
 
 .inline-block{
@@ -216,13 +216,25 @@ h4 {
   transition: all ease 0.5s; 
 }
 
+.button2 {
+  border: none;
+  background-color: #2D656D;
+  color: #F5E8E4;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all ease 0.5s; 
+}
+
 .active {
   font-size: 0;
   width: 50px;
   height: 65px;
   border-radius: 30%;
   background-color: #C18076;
-  animation: rotate 1.4s ease 0.5s 3;
+  animation: rotate 1.4s ease 0.8s 3;
 }
 @keyframes rotate {
   0%{
